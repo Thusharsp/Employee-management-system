@@ -46,7 +46,7 @@
 
             if( !empty($name) && !empty($email) && !empty($project_id) && !empty($project_name) && !empty($dept) ){
 
-                // database connection
+                // database connection hello how are you....
                 require_once "../connection.php";
 
                 $sql_select_query = "SELECT email FROM project_assign WHERE email = '$email' ";
